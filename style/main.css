@@ -47,5 +47,32 @@ header .container {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 5rem;
+}
+
+.filme-principal .descricao {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.titulo {
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 15;
+}
+.botao {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.botao:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+.botao i {
+  margin-right: 10px;
 }
